@@ -46,7 +46,7 @@ while(true){
         
         
     ){
-        console.log("vc venceu")
+        console.log("Droga, eu perdi '-'")
         break
     }
 
@@ -64,8 +64,7 @@ while(true){
         
         
     ){
-        console.log("vc perdeu")
+        console.log("HAHAHAHAHAHA, você perdeu ")
         break
     }
-
 }
