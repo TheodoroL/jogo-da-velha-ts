@@ -20,7 +20,7 @@ let list : string[]= [
 
 while(true){
     mostrar(list)
-    let ops:number = parseInt(readlineSync.question("digite um número de 0, 8 ? :"))
+    let ops:number = parseInt(readlineSync.question("digite um número de 0, 8 :"))
     let pc : number = Math.floor(Math.random()*9) 
     
     if ((ops< 0 || ops >8) || (list[ops] == "X"  || list[ops]=="O") ){
